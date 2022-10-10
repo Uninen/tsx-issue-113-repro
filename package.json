@@ -1,0 +1,16 @@
+{
+  "name": "tsx-issue-repro",
+  "author": "Ville Säävuori <ville@unessa.net>",
+  "license": "MIT",
+  "scripts": {
+    "repro": "tsx test.ts"
+  },
+  "dependencies": {
+    "playwright-chromium": "1.26.1"
+  },
+  "devDependencies": {
+    "@types/node": "18.8.2",
+    "tsx": "3.9.0",
+    "typescript": "4.8.4"
+  }
+}
